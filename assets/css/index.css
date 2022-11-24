@@ -1,0 +1,10 @@
+.box
+{
+    width: auto;
+    height: auto;
+    margin: auto;
+    top: 0;
+    left: 20;
+    padding: 10px;
+    color: rebeccapurple
+}
