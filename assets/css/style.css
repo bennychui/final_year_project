@@ -8,3 +8,39 @@
     padding: 10px;
     color: rebeccapurple
 }
+
+.img_bar_logo{
+    position: absolute;
+    width: 10%;
+    top: auto;
+    left: 30px;
+
+}
+
+.search-bar{
+    position: absolute;
+    right: 150px;
+    top: 30px;
+    //width: 160px;
+    height: 35px;
+    background-color: aliceblue;
+}
+
+.search input{
+    width: 180px;
+    height: 30px;
+
+}
+
+input::placeholder{
+    color: rgb(141, 137, 82);
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.function-bar{
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    background-color: aliceblue;
+}
