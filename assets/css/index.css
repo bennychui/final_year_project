@@ -1,3 +1,7 @@
+a{
+    text-decoration:none; /*不顯示地滑綫*/
+}
+
 .box
 {
     width: auto;
@@ -10,10 +14,11 @@
 }
 
 .img_bar_logo{
-    position: absolute;
-    width: 10%;
-    top: auto;
-    left: 30px;
+    position: relative;
+    width: 150px;
+    align-items: center;
+    top: -25%;
+    
 
 }
 
@@ -24,6 +29,7 @@
     //width: 160px;
     height: 35px;
     background-color: aliceblue;
+    
 }
 
 .search input{
@@ -38,9 +44,30 @@ input::placeholder{
     font-style: italic;
 }
 
+.profile{
+    position: absolute;
+    right: 90px;
+    top: 30px;
+    height: 40px;
+}
+
 .function-bar{
     position: absolute;
     width: 100%;
     top: 150px;
     background-color: aliceblue;
 }
+
+.menu{
+    position: relative;
+    top: 115px;
+    width: auto;
+    display: inline-block;
+    font-size: 1.2em;  
+}
+
+.container{
+    position: relative;
+
+}
+
