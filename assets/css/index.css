@@ -13,17 +13,33 @@ a{
     color: rebeccapurple
 }
 
-.img_bar_logo{
-    position: relative;
-    width: 150px;
-    align-items: center;
-    top: -25%;
-    
 
+.top-bar-logo{
+    position: relative;
+    width: 550px;
+    align-items: center;
+    top: 10px;
+    left: 10px;
+}
+
+.main-header{
+	background-color:#fff;
+	padding:12.5px;
+}
+.main-header .container{
+	position: relative;
+	top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width:1200px;
+	height: 100px;
+	margin:auto;
+	z-index:4;
 }
 
 .search-bar{
-    position: absolute;
+    position: relative;
     right: 150px;
     top: 30px;
     //width: 160px;
@@ -51,7 +67,7 @@ input::placeholder{
     height: 40px;
 }
 
-.function-bar{
+.top-bar{
     position: absolute;
     width: 100%;
     top: 150px;
@@ -68,6 +84,8 @@ input::placeholder{
 
 .container{
     position: relative;
-
 }
 
+.sign-in:hover{
+    color: rgb(134, 231, 169);
+}
