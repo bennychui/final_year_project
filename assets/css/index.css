@@ -2,8 +2,7 @@ a{
     text-decoration:none; /*不顯示地滑綫*/
 }
 
-.box
-{
+.box{
     width: auto;
     height: auto;
     margin: auto;
@@ -13,13 +12,17 @@ a{
     color: rebeccapurple
 }
 
+.container{
+    position: relative;
+    padding: 0%;
+}
 
 .top-bar-logo{
     position: relative;
     width: 550px;
     align-items: center;
     top: 10px;
-    left: 10px;
+    left: -em;
 }
 
 .main-header{
@@ -30,7 +33,7 @@ a{
 	position: relative;
 	top: 25px;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 	max-width:1200px;
 	height: 100px;
@@ -38,6 +41,7 @@ a{
 	z-index:4;
 }
 
+/*
 .search-bar{
     position: relative;
     right: 150px;
@@ -82,10 +86,7 @@ input::placeholder{
     font-size: 1.2em;  
 }
 
-.container{
-    position: relative;
-}
-
 .sign-in:hover{
     color: rgb(134, 231, 169);
 }
+*/
