@@ -1,46 +1,66 @@
-a{
+*{
     text-decoration:none; /*不顯示地滑綫*/
+    margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-.box{
-    width: auto;
-    height: auto;
-    margin: auto;
-    top: 0;
-    left: 20;
-    padding: 10px;
-    color: rebeccapurple
-}
-
-.container{
-    position: relative;
-    padding: 0%;
-}
-
-.top-bar-logo{
-    position: relative;
-    width: 550px;
-    align-items: center;
-    top: 10px;
-    left: -em;
-    
+body{
+    background-color: rgb(246, 236, 198);
 }
 
 .main-header{
-	background-color:#fff;
-	padding:12.5px;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background-color: aliceblue;
+    margin: 0px;
+    display: flex;
 }
-.main-header .container{
-	position: relative;
-	top: 25px;
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	max-width:1200px;
-	height: 100px;
-	margin:auto;
-	z-index:4;
+
+.container{
+    display: flex;
 }
+
+.top-bar-logo{
+    position: absolute;
+    width: 100px;
+    height: ;
+    margin-right: 80em;
+}
+
+
+ul.menu{
+    display: inline-block;
+    font-family: 新細明體;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 90px;
+    right: 380px;
+    background-color: rgb(125, 245, 245) 40px;
+}
+ul.menu li{
+    position: relative;
+    background-color: rgb(125, 245, 245);
+}
+
+ul.menu>li{
+    float: left;
+    background-color: teal;
+}
+
+ul.menu a{
+    color: rgba(255, 255, 255, 0.966);
+    display: block;
+    padding: 0 30px;
+    line-height: 50px;
+    background-color: teal;
+}
+
+
+
+
 
 /*
 .search-bar{
@@ -89,5 +109,15 @@ input::placeholder{
 
 .sign-in:hover{
     color: rgb(134, 231, 169);
+}
+
+.box{
+    width: auto;
+    height: auto;
+    margin: auto;
+    top: 0;
+    left: 20;
+    padding: 10px;
+    color: rebeccapurple
 }
 */
