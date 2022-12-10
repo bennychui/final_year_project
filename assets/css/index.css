@@ -12,7 +12,7 @@ body{
     position: absolute;
     width: 100%;
     height: 15%;
-    /* border-left: -10px; */
+    border-left: -10px;
     background-color: aliceblue;
     margin: 0px;
     display: flex;
@@ -36,15 +36,17 @@ ul.menu{
     font-family: 新細明體;
     font-size: 20px;
     font-weight: bold;
+    /* width: 100%; */
     position: absolute;
     top: 90px;
     right: 3em;
+    
     background-color: rgb(125, 245, 245) 40px;
 }
-ul.menu li{
+/* ul.menu li{
     position: relative;
     background-color: rgb(125, 245, 245);
-}
+} */
 
 ul.menu>li{
     float: left;
@@ -58,6 +60,26 @@ ul.menu a{
     line-height: 50px;
     background-color: teal;
 }
+
+ ul.menu li{
+    position: relative;
+    background-color: rgb(125, 245, 245);
+} 
+
+ul.menu>li{
+    float: left;
+    /*background-color: teal;*/
+}
+
+ul.menu a{
+    color: rgba(255, 255, 255, 0.966);
+    display: block;
+    padding: 0 30px;
+    line-height: 50px;
+    background-color: teal;
+} 
+
+
 
 .news{
     position: absolute;
@@ -115,6 +137,16 @@ input::placeholder{
     height: 40px;
 }
 
+/* footer開始 */
+.footer-footer{
+    position: absolute;
+    width: 100%;
+    background-color: aliceblue;
+    height: 75px;
+    bottom: 0px;
+    text-align: center;
+
+}
 
 /*
 .profile{
