@@ -19,15 +19,15 @@ body{
 }
 
 .container{
-    /* display: flex; */
+    display: flex;
 }
 
 .top-bar-logo{
     position: absolute;
     border: 100px;
-    width: ;
     height: 100%;
     margin-right: 80em;
+    display: flex;
 }
 
 
@@ -59,19 +59,28 @@ ul.menu a{
     background-color: teal;
 }
 
-.new{
+.news{
     position: absolute;
     left: 70px;
     margin: 20px;
     max-width: 250px;
     padding: 16px;
-    background-color: rgb(62, 62, 62);
-    top: 500px;
+    background-color: rgb(255, 255, 255);
+    top: 190px;
     font-size: 20px;
     border-radius:30px;
+    display: flex;
 }
 
+.container-main{
+    position: relative;
+    display:flex ;
+}
 
+.marquee{
+    position: relative;
+    
+}
 
 /*
 .search-bar{
