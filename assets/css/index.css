@@ -14,12 +14,13 @@ body{
     height: 15%;
     border-left: -10px;
     background-color: aliceblue;
+    top: 47px;
     margin: 0px;
-    display: flex;
+    /* display: flex; */
 }
 
 .container{
-    display: flex;
+    /* display: flex; */
 }
 
 .top-bar-logo{
@@ -30,58 +31,39 @@ body{
     display: flex;
 }
 
-.container-menu{
-    float: left;
-    background-color:aqua ;
+.menu{
+    display: flex;
+    justify-content: right;
 }
 
-ul.menu{
-    display: inline-block;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
     font-family: 新細明體;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    /* width: 100%; */
-    position: absolute;
-    top: 90px;
-    right: 3em;
     
-    background-color: rgb(125, 245, 245) 40px;
 }
-/* ul.menu li{
-    position: relative;
-    background-color: rgb(125, 245, 245);
-} */
 
-ul.menu>li{
+li {
     float: left;
-    /*background-color: teal;*/
 }
 
-ul.menu a{
-    color: rgba(255, 255, 255, 0.966);
+li a {
     display: block;
-    padding: 0 30px;
-    line-height: 50px;
-    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
- ul.menu li{
-    position: relative;
-    background-color: rgb(125, 245, 245);
-} 
-
-ul.menu>li{
-    float: left;
-    /*background-color: teal;*/
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
-
-ul.menu a{
-    color: rgba(255, 255, 255, 0.966);
-    display: block;
-    padding: 0 30px;
-    line-height: 50px;
-    background-color: teal;
-} 
 
 .marquee{ 
     /* 跑馬燈 */
