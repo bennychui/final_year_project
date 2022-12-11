@@ -1,107 +1,4 @@
-*{
-    text-decoration:none; /*不顯示地滑綫*/
-    margin: 0%;
-	list-style: none;
-}
 
-body{
-    background-color: rgb(246, 236, 198);
-}
-
-.main-header{
-    position: absolute;
-    width: 100%;
-    height: 15%;
-    border-left: -10px;
-    background-color: aliceblue;
-    top: 47px;
-    margin: 0px;
-    /* display: flex; */
-}
-
-.container{
-    /* display: flex; */
-}
-
-.top-bar-logo{
-    position: absolute;
-    border: 100px;
-    height: 100%;
-    margin-right: 80em;
-    display: flex;
-}
-
-.menu{
-    display: flex;
-    justify-content: right;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: teal;
-    font-family: 新細明體;
-    font-size: 16px;
-    font-weight: bold;
-    
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
-.marquee{ 
-    /* 跑馬燈 */
-    position: relative;
-    
-}
-
-/* search 開始 */
-.search{
-    position: absolute;
-    right: 150px;
-    top: 30px;
-    width: 160px;
-    height: 50px;
-    border-radius: 20%;
-    background-color: aliceblue;
-}
-
-.search input{
-    width: 180px;
-    height: 30px;
-
-}
-
-input::placeholder{
-    color: black;
-    font-size: 1.2em;
-    font-style: italic;
-}
-/* search結束 */
-
-.cart img{
-    position: absolute;
-    right: 60px;
-    top: 25px;
-    width: 40px;
-    height: 40px;
-}
 /* header結束 */
 /* -------------------------------------------------------------- */
 
@@ -134,18 +31,8 @@ input::placeholder{
 
 
 
+/* ---------------------------------------------------------------- */
 
-
-/* footer開始 */
-.footer-footer{
-    position: absolute;
-    width: 100%;
-    background-color: aliceblue;
-    height: 75px;
-    bottom: 0px;
-    text-align: center;
-
-}
 
 /*
 .profile{
