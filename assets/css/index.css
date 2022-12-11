@@ -22,11 +22,12 @@
 
 .news2{
     position: absolute;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     margin: 20px;
     padding: 16px;
     top: 160px;
     left: 820px;
+    clear: both;
 }
 
 

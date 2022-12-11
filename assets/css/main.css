@@ -29,7 +29,14 @@ body{
     height: 100%;
     margin-right: 80em;
     display: flex;
+    opacity : 1;
+
 }
+
+/* .top-bar-logo:hover{
+    opacity : 0.8;
+
+} */
 
 .menu{
     display: flex;
@@ -63,6 +70,9 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+    top: px;
+    transform : scale(1.2);
+
 }
 
 .marquee{ 
@@ -78,14 +88,12 @@ li a:hover {
     top: 30px;
     width: 160px;
     height: 50px;
-    border-radius: 20%;
     background-color: aliceblue;
 }
 
 .search input{
     width: 180px;
     height: 30px;
-
 }
 
 input::placeholder{
@@ -102,6 +110,12 @@ input::placeholder{
     width: 40px;
     height: 40px;
 }
+
+.cart img:hover{
+    transform : scale(1.2);
+
+}
+
 /* header結束 */
 /* -------------------------------------------------------------- */
 
