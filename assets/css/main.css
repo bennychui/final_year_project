@@ -124,6 +124,14 @@ input::placeholder{
 
 /* ---------------------------------------------------------------- */
 /* footer開始 */
+.container-footer{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 80px;
+    /* https://blog.csdn.net/m0_38099607/article/details/71598423 */
+}
+
 .footer-footer{
     position: absolute;
     width: 100%;
@@ -131,5 +139,6 @@ input::placeholder{
     height: 75px;
     bottom: 0px;
     text-align: center;
+    flex: 0 0 auto;
 
 }
