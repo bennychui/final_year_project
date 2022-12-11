@@ -30,10 +30,6 @@ body{
     display: flex;
 }
 
-.container-menu{
-    float: left;
-    background-color:aqua ;
-}
 
 ul.menu{
     display: inline-block;
@@ -83,13 +79,6 @@ ul.menu a{
     background-color: teal;
 } 
 
-.marquee{ 
-    /* 跑馬燈 */
-    position: relative;
-    
-}
-
-/* search 開始 */
 .search{
     position: absolute;
     right: 150px;
@@ -120,39 +109,6 @@ input::placeholder{
     width: 40px;
     height: 40px;
 }
-/* header結束 */
-/* -------------------------------------------------------------- */
-
-.container-main{
-    position: absolute;
-    display:flex ;
-}
-
-.news{
-    position: absolute;
-    left: 70px;
-    margin: 20px;
-    max-width: 700px;
-    padding: 16px;
-    background-color: rgb(255, 255, 255);
-    top: 160px;
-    font-size: 20px;
-    border-radius:30px;
-    display: flex;
-}
-
-.news2{
-    position: absolute;
-    background-color: aliceblue;
-    margin: 20px;
-    padding: 16px;
-    top: 160px;
-    left: 820px;
-}
-
-
-
-
 
 /* footer開始 */
 .footer-footer{
@@ -164,41 +120,3 @@ input::placeholder{
     text-align: center;
 
 }
-
-/*
-.profile{
-    position: absolute;
-    right: 90px;
-    top: 30px;
-    height: 40px;
-}
-
-.top-bar{
-    position: absolute;
-    width: 100%;
-    top: 150px;
-    background-color: aliceblue;
-}
-
-.menu{
-    position: relative;
-    top: 115px;
-    width: auto;
-    display: inline-block;
-    font-size: 1.2em;  
-}
-
-.sign-in:hover{
-    color: rgb(134, 231, 169);
-}
-
-.box{
-    width: auto;
-    height: auto;
-    margin: auto;
-    top: 0;
-    left: 20;
-    padding: 10px;
-    color: rebeccapurple
-}
-*/
