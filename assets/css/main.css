@@ -170,6 +170,16 @@ input::placeholder {
 
 }
 
+.page-name p{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 15px;
+    font-family: Microsoft JhengHei;
+    font-size: 45px;
+    justify-items: right;
+    /* background-color: aquamarine; */
+}
+
 /* header結束 */
 /* -------------------------------------------------------------- */
 
