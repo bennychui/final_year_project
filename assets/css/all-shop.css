@@ -17,6 +17,8 @@
     display: flex;
     justify-content: center;
     overflow: visible;
+    height: 500px;
+    padding-bottom: 0;
 }
 
 .goodsline2 {
@@ -25,14 +27,18 @@
     display: flex;
     /* overflow: visible; */
     /* margin-top: 45px; */
-    top: 180px;
+    top: 150px;
+    height: 500px;
     justify-content: center;
+    padding-bottom: 0;
+
 
 }
 
 .goodscard {
     position: relative;
-
+    top: 20px; /* 商品項與header的距離 */
+    
     margin: 2em;
     width: 350px;
     height: 350px;
@@ -40,6 +46,7 @@
 }
 
 .goodsphoto {
+    
     width: 350px;
     height: 350px;
 
@@ -52,7 +59,7 @@
     left: 0;
     right: 0;
     color: rgb(155, 155, 155);
-    background: rgba(161, 161, 161, 0.6);
+    background: rgba(184, 92, 92, 0.565);
     visibility: hidden;
     opacity: 0.6;
     transition: opacity 0.6s;
