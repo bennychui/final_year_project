@@ -38,11 +38,11 @@
 .goodscard {
     position: relative;
     top: 20px; /* 商品項與header的距離 */
-    
     margin: 2em;
     width: 350px;
     height: 350px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: ;
 }
 
 .goodsphoto {
