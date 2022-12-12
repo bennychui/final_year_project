@@ -44,7 +44,7 @@ img{max-width:100%;}
 	min-height: 500px;
 	background: rgba(16, 16, 16, 0.73);
 	box-sizing:	border-box;
-	border: 20px solid rgb(0, 0, 0);
+	border: 15px solid rgb(0, 0, 0);
 }
 /*-- Slider range --*/
 .filter-price {
@@ -95,7 +95,7 @@ ul.dropdown-menu6 li a {
 .w3l-rigt-side {
 	flex-basis: 500px;
 	flex-basis: 500px;
-    background: url(../images/colorful.png)0px 0px no-repeat;
+    background: url(../images/1.jpg)0px 0px no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	box-sizing:	border-box;
@@ -122,7 +122,7 @@ ul.dropdown-menu6 li a {
     width: 30%;
     margin: 2em auto;
     padding: 10px 0;
-    background: #0f86bb;
+    background: #da3737;
     text-align: center;
     border-radius: 4em;
 	-webkit-transition: 0.5s ease-in;
