@@ -84,3 +84,17 @@
     transform: translate(0em);
 }
 
+.name-font {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+    color: #464545;
+}
+
+.price-font {
+
+    color: #090909;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+    /* top: 0px; */
+}
