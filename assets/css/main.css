@@ -5,6 +5,13 @@
     list-style: none;
 }
 
+.container {
+	margin: 0 auto;
+	max-width: calc(100% - 100px);
+	width: 1200px;
+    max-width: 100%;
+}
+
 body {
     background-color: rgb(225, 225, 225);
 
