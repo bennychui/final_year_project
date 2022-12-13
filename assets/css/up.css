@@ -1,0 +1,42 @@
+.upsline1{
+    position: relative;
+    top: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* overflow: visible; */
+    /* height: 500px; */
+    padding-bottom: 0;
+
+}
+
+.upsline2 {
+    position: relative;
+    margin: auto;
+    display: flex;
+    /* overflow: visible; */
+    /* margin-top: 45px; */
+    top: 150px;
+    height: 500px;
+    justify-content: center;
+    padding-bottom: 0;
+
+
+}
+
+.upsbox1{
+    background-color:rgb(124, 185, 25);
+    margin:0.5%;
+    height: 180px;
+    width:775px;
+    
+
+}
+
+.upsbox2{
+    background-color:rgb(124, 185, 25);
+    margin:0.5%;
+    height: 180px;
+    width:775px;
+
+}
