@@ -1,0 +1,132 @@
+
+
+.cartbox1{
+    position: absolute;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 270px;
+    width: 80%;
+    height: 400px;
+    justify-content: center;
+}
+
+.cart-item-info-1{
+    position: absolute;
+    /* background-color: rgba(184, 92, 92, 0.565); */
+    width: 90%;
+    height: 10px;
+    margin-left: 80px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 30px; 
+    display: flex;
+    z-index: 2;
+}
+
+.cart-item-info-blk1{
+    margin:0px 30px;
+    width: 300px;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    /* background-color: antiquewhite; */
+}
+
+.cart-item-info-blk2{
+    position: relative;
+    right: -80px;
+    margin:0px 30px;
+    width: 300px;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    /* background-color: antiquewhite; */
+}
+
+.cart-item-info-blk3{
+    margin:0px 30px;
+    width: 30px;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    /* background-color: antiquewhite; */
+}
+
+/* 商品名,價格,操作行結束 -----------------------------------------------*/
+/* 商品相片行開始         -----------------------------------------------*/
+.cart-item-1{
+    position: absolute;
+    background-color: rgb(167, 201, 224);
+    height: 100%;
+    width: 90%;
+    margin-left: 80px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 17px;
+    border-radius: 30px; 
+    display: flex;
+    z-index: 1;
+}
+
+.cart-inbox1{
+    margin: 30px;
+}
+
+.cart-inbox2{
+    margin: 30px;
+    /* background-color: aquamarine; */
+}
+
+.cart-inbox3{
+    margin: 30px;
+    /* background-color: aquamarine; */
+}
+
+.cart-inbox4{
+    position: relative;
+    right: -120px;
+    margin: 30px;
+    /* background-color: aquamarine; */
+    
+}
+
+.cart-img{
+    width: 300px;
+    border-radius: 30px;
+}
+
+input{
+    border:0;
+    background-color:#ffffff;
+    color:rgb(0, 0, 0);border-radius:10px;
+    font-size: 20px;
+    border: 1px solid #aaa;
+    /* font-weight: bold; */
+    font-family: "Microsoft JhengHei";
+    text-align: center;
+}
+
+/* 商品相片行結束        -----------------------------------------------*/
+/* 結算按鈕行開始            -----------------------------------------------*/
+
+.cart-pay-row{
+    position: absolute;
+    background-color: rgba(154, 147, 152, 0.8);
+    width: 90%;
+    height: 10px;
+    margin-left: 80px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 500px;
+    border-radius: 30px; 
+    display: flex;
+    z-index: 3;
+}
+
+.cart-pay-button{
+    position: relative;
+    right: -10px;
+    top: -75px;
+    margin: 30px;
+    background-color: aquamarine;
+}
+
+/* 結算按鈕行結束            -----------------------------------------------*/
