@@ -93,10 +93,23 @@
     border-radius: 30px;
 }
 
-input{
+.cart-inbox4 input{
     border:0;
     background-color:#ffffff;
-    color:rgb(0, 0, 0);border-radius:10px;
+    color:rgb(0, 0, 0);
+    border-radius:10px;
+    font-size: 20px;
+    border: 1px solid #aaa;
+    /* font-weight: bold; */
+    font-family: "Microsoft JhengHei";
+    text-align: center;
+}
+
+.cart-pay-button input{
+    border:0;
+    background-color:#ffffff;
+    color:rgb(0, 0, 0);
+    border-radius:10px;
     font-size: 20px;
     border: 1px solid #aaa;
     /* font-weight: bold; */
