@@ -1,4 +1,4 @@
-.upsline1{
+.upsline1 {
     position: relative;
     top: 150px;
     margin: auto;
@@ -14,8 +14,8 @@
     position: relative;
     margin: auto;
     display: flex;
-    /* overflow: visible; */
-    /* margin-top: 45px; */
+    overflow: visible;
+    margin-top: 45px;
     top: 150px;
     height: 500px;
     justify-content: center;
@@ -24,19 +24,104 @@
 
 }
 
-.upsbox1{
-    background-color:rgb(124, 185, 25);
-    margin:0.5%;
-    height: 180px;
-    width:775px;
+.upsbox1 {
+    background-color: rgb(246, 252, 221);
+    border-radius: 10%;
+    position: relative;
+    margin: 1%;
+    height: 580px;
+    width: 775px;
+    border: 4555px;
+    font-family: "Microsoft JhengHei";
+    font-size: 30px;
+    justify-content: center;
+}
+
+.upsbox2 {
+    background-color:rgb(217, 235, 250);
+    border-radius: 10%;
+    margin: 1%;
+    height: 580px;
+    width: 775px;
+    padding: 85px;
+    font-family: "Microsoft JhengHei";
+    /* justify-content: center; */
+}
+
+/* upload功能測試開始 */
+.upload_cover {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: 38px;
+    margin-left: 115px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+#upload_input {
+    display: none;
+}
+
+.upload_icon img{
+    font-weight: bold;
+    font-size: 180%;
+    position: absolute;
+    left: 0;
+    width: 80%;
+    top: 20%;
     
+}
+
+.up-img{
+  opacity: 0.3;  
+}
+
+.up-img:hover {
+    opacity: 0.4;
 
 }
 
-.upsbox2{
-    background-color:rgb(124, 185, 25);
-    margin:0.5%;
-    height: 180px;
-    width:775px;
-
+.upload_img {
+    position: absolute;
+    width: 150px;
+    margin-top: 120px;
+    right: 220px;
 }
+
+.delAvatar {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.textbox{
+    height: 20%;
+}
+
+input{
+    border:0;
+    background-color:#003C9D;
+    color:#fff;border-radius:10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+/* .item-detail-yo{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: -45px;
+    margin-left: 35px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: aquamarine;
+} */
+
+/* upload功能測試結束 */
