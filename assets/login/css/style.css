@@ -37,7 +37,7 @@ img{max-width:100%;}
     letter-spacing: 2px;
     padding: 30px 0 30px 0;
 	color: rgb(0, 0, 0);
-	font-family: 'Audiowide', cursive;
+	font-family: "Microsoft JhengHei";
 }
 .w3l-left-side {
     flex-basis: 500px;
@@ -116,13 +116,13 @@ ul.dropdown-menu6 li a {
     border-radius: 3em;
     background: coral;
 	color: #fff;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: "Microsoft JhengHei";
 }
 .w3l-signin, .w3l-signup {
     width: 30%;
     margin: 2em auto;
     padding: 10px 0;
-    background: #da3737;
+    background: #ef9f9b;
     text-align: center;
     border-radius: 4em;
 	-webkit-transition: 0.5s ease-in;
@@ -130,6 +130,7 @@ ul.dropdown-menu6 li a {
 	-o-transition: 0.5s ease-in;
 	-ms-transition: 0.5s ease-in;
 	transition: 0.5s ease-in;
+	font-family: "Microsoft JhengHei";
 }
 .w3l-signin:hover.w3l-signin a {
     color: #000;
@@ -151,7 +152,9 @@ ul.dropdown-menu6 li a {
     letter-spacing: 1px;
     outline: none;
     border: none;
-	font-family: 'Audiowide', cursive;
+	font-weight: bold;
+	font-family: "Microsoft JhengHei";
+	/* 登入，建立賬號字體在這裏 */
 	-webkit-transition: 0.5s ease-in;
 	-moz-transition: 0.5s ease-in;
 	-o-transition: 0.5s ease-in;
@@ -166,14 +169,14 @@ ul.dropdown-menu6 li a {
     background-color: #05c2f9;
     color: #FFF;
     cursor: pointer;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: "Microsoft JhengHei";
 }
 .submit-w3l {
     text-align: left;
 	margin-left: 40px;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: "Microsoft JhengHei";
 }
-footer {
+/* footer {
     font-size: 15px;
     font-weight: 500;
     text-align: center;
@@ -181,12 +184,12 @@ footer {
     letter-spacing: 1px;
     margin: 50px 0;
 	color: #fff;
-	font-family: 'Audiowide', cursive;
+	font-family: "Microsoft JhengHei";
 }
 footer a{
 	color: #cddc39;
-	font-family: 'Audiowide', cursive;
-}
+	font-family: "Microsoft JhengHei";
+} */
 /*sign in form*/
 .wthree-container {
     display: flex;
@@ -200,7 +203,7 @@ footer a{
     letter-spacing: 3px;
     margin-bottom: 30px;
     color: #fff;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: "Microsoft JhengHei";
 }
 .wthree-form.bg {
     flex-basis: 400px;
