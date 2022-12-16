@@ -104,6 +104,10 @@
     text-align: center;
 }
 
+.cart-inbox4 input:hover{
+    background-color:#e0bea7 ;
+}
+
 .cart-pay-button input{
     border:0;
     background-color:#ffffff;
@@ -114,6 +118,10 @@
     /* font-weight: bold; */
     font-family: "Microsoft JhengHei";
     text-align: center;
+}
+
+.cart-pay-button input:hover{
+    background-color: #e0bea7;
 }
 
 /* 商品相片行結束        -----------------------------------------------*/
